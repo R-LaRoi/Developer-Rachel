@@ -1,36 +1,29 @@
 import React from 'react'
+import { Link } from "react-router-dom";
 import "./homepage.css"
 export default function Homepage() {
 
   return(
     
   <>
-    <section className='hero'>
-          <div className='header'>
-            <div className='desc'>web developer</div>
-             <div>RACHEL</div>
-              <div class="stroy">STROY</div>
-      </div>
 
-</section>
+<main className='hero'>            
 
-<div className='container'>
-<section className='sec-two'>
-<p>
-  
-  <div className="name">meet </div>
-<div className="name"> rachel </div>
+<img src="https://user-images.githubusercontent.com/114012059/235873733-930828b7-4506-4a68-af15-aa11ae9043d8.png" alt="elephant with tusk"   className="img-hero"/>
 
-A potter, an artist turned architect, a ceramicist whose imagination unfolded through the use of clay. A potter that spent countless years at the wheel making pots. 
+<div className='home-nav-bar'>
 
-While his approach to clay began at the wheel, symbolically the clay being used to create became a lot larger than a single pot.
+<span><Link to='/goals'>goals</Link></span>
 
-Theaster Gates, is willing to be transformed all the time. He "allows the world to affect him deeply... which leads to transformation to change the world." 
-</p>
+<span><Link to='/projects'>projects</Link></span>
 
-</section>
+<span><Link to='/contact'>connect</Link></span>
 
 </div>
+</main>
+
+
+
 </>
   )
 }

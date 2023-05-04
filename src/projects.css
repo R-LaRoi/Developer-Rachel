@@ -1,0 +1,89 @@
+
+.project-container{
+  background-color:#1d1d1d;
+  font-family: "tusker-36";
+  padding: 15%;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 6rem;
+  color: #f6f6f6;
+
+}
+
+
+.pro-header {
+  padding-top: 6rem;
+  font-family: "Tusker-super";
+  font-size: 4rem;
+  color: #f6f6f6;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+
+
+}
+
+.pro-sub-text {
+  line-height: 65px;
+  font-family: "Tusker-36";
+  color: #f6f6f6;
+  font-size: 5rem;
+  letter-spacing: 3px;
+
+}
+
+.project-images{
+width: 400px;
+border-radius: 20px;
+
+
+
+}
+
+.project-images:hover{
+opacity: .3;
+
+
+}
+
+
+ .img-grid:hover  .text-ovr{
+display: inline-block;
+cursor: pointer;
+/* border: 2px solid yellow; */
+}
+
+
+
+
+.text-ovr {
+  position: absolute;
+right: 21%;
+  font-size: 3rem;
+  color: rgb(241, 241, 241);
+  background-color: #262626f7;
+  width: 100px;
+  display: none;
+  padding: 140px;
+
+}
+
+
+.pro-desc  {
+font-family: 'Tusker-36';
+font-size: 2.5rem;
+
+
+} 
+
+ul{
+list-style: none;
+  font-family: 'Arial';
+  font-size: 1.1rem;
+
+}
+
+
+.img-grid{
+ 
+
+}

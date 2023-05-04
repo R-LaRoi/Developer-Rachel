@@ -4,6 +4,7 @@ import Homepage from "./Homepage";
 import Goals from "./Goals";
 import Projects from "./projects"
 import Contact from "./Contact";
+import "./App.css"
 
 export default function App() {
   return (
@@ -13,8 +14,8 @@ export default function App() {
           
           <Route index element={<Homepage />} />
           <Route path="goals" element={<Goals />} />
-          <Route exact path="projects" element={<Projects />} />
-    <Route exact path="contact" element={<Contact/>} />
+          <Route path="projects" element={<Projects />} />
+    <Route path="contact" element={<Contact/>} />
         </Route>
       </Routes>
     </BrowserRouter>

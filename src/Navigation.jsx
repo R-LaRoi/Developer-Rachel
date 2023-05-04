@@ -1,21 +1,21 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import "./nav.css"
 
 
 export default function Navigation(){
 return(
-        <div className="name">rachel
-      <div className="title">frontend developer</div>
-<div>
-  <ul>
-    <li><Link to="/">home</Link>
-      </li><li><Link to="/goals">goals</Link></li>
-     <li><Link to="/projects">projects</Link></li>
-      <li><Link to="/contact">contact</Link></li>
-      </ul>
-        
-  </div>
-     </div>
+    <section>
+  <div className='nav-bar'>
+<li><Link to='/goals' className='a-link'  >goals</Link></li>
+
+<li><Link to='/projects' className='a-link'>projects</Link></li>
+
+<li><Link to='/contact' className='a-link' >connect</Link></li>
+
+</div>
+  </section>
+
 
 )
 }

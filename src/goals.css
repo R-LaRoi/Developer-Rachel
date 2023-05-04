@@ -1,0 +1,14 @@
+.goal-container{
+display: grid;
+grid-template-columns: 1fr 1fr;
+  background-color: rgb(236, 236, 236);
+height: 100vh;
+padding: 10%;
+
+}
+.sub-text{
+line-height: 20px;
+  font-family: "Tusker-36";
+
+}
+

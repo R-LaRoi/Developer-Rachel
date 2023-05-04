@@ -1,0 +1,35 @@
+.contact-container {
+/* height: 100vh; */
+  background-color: #1d1d1d;
+    font-family: "tusker-36";
+ display: grid;
+
+ grid-template-columns: 1fr 1fr;
+ padding-top: 25%;
+ gap: 30px;
+
+
+}
+
+
+form{
+  display: flex;
+  flex-direction: column;
+  border: 2px solid whitesmoke;
+  width: fit-content;
+height: fit-content;
+padding: 30px;
+
+}
+input{
+padding: 10px;
+margin-bottom: 10px;
+border: none;
+background-color: transparent;
+
+}
+
+textarea{
+
+  background-color: transparent;
+}

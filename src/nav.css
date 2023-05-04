@@ -1,0 +1,28 @@
+.nav-bar {
+  position: fixed;
+ left: 35%;
+  display: flex;
+  align-content: center;
+  color: black;
+  font-family: 'Tusker-36';
+  font-size: 2rem;
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  list-style: none;
+  width: fit-content;
+
+}
+
+.a-link {
+  color: #e1e1e1;
+  padding:15px
+
+}
+
+.a-link:hover{
+  color: rgb(203, 187, 155);
+
+
+}
+
+

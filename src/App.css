@@ -1,0 +1,20 @@
+body {
+  margin: 0;
+
+
+}
+
+@font-face {
+  font-family: "Tusker-28";
+  src: url("TuskerGrotesk-2800Super.otf");
+}
+
+@font-face {
+  font-family: "Tusker-Super";
+  src: url("TuskerGrotesk-9800Super.otf");
+}
+
+@font-face {
+  font-family: "Tusker-36";
+  src: url("TuskerGrotesk-3600Semibold.otf");
+}
