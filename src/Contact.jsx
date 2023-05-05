@@ -1,35 +1,88 @@
-import React from 'react'
+import React, {useState} from 'react'
 import "./contact.css"
 import Navigation from './Navigation'
 import imgContact from "./2.png"
 
-
-
-
-
 export default function Contact() {
+const [userName , setUserName] = useState('')
+const [email , setEmail] = useState('')
+const [userMessage, setUserMessage] = useState('')
+const [confirmation, setConfirmation] = useState('')
 
-  return(
+
+function sendMessage(e){
+  e.preventDefault()
+  setUserName('')
+  setEmail('')
+  setUserMessage('')
+  setConfirmation(`Thank you ${userName} for your message!`)
+}
+
+function showConfirmation(){
+  const contactMessage = "Always excited to hear  about new ideas. Send a message! I'm happy to connect." 
+if (sendMessage) { 
+  return confirmation
+} else { contactMessage
+
+  
+}
+}
+
+
+return (
     <>
 <Navigation />
 
 <div className='contact-container'>
-<img src={imgContact} width="700px"></img>
+<img src={imgContact} width="600px" className='contact-img'></img>
+ <div>
+   
 
-  <div>lets connect!
-
-<form action="">
-  <input type="name" name="" id="" placeholder='name'/>
-   <input type="email" placeholder='email' />
-  <textarea type="text" name="" id="" placeholder='enter message' />
- <input type="submit" />
+                                                                                                                                                                                                           
+<form action="" onSubmit={sendMessage} className="contact-form">
 
  
+<div style={{padding:"30px"}}> 
+{showConfirmation ? `${confirmation}` : `${contactMessage}`}
+  </div>
 
+  <input 
+      type="text" 
+      name="userName" 
+      id="userName" 
+      placeholder='name' 
+      value={userName}
+      onChange={(e)=> {
+        setUserName(e.target.value)
+  }}/>
+
+        <input type="text"
+        placeholder='email' 
+        id='email'
+        value={email}
+        onChange={(e)=> {
+          setEmail(e.target.value)
+        }}
+        />
+        <textarea 
+        type="text" 
+        name="message" 
+        id="1"
+        value={userMessage}
+        placeholder='enter message'
+        onChange={(e)=>{
+          setUserMessage(e.target.value)
+        }}
+        />
+
+        <input type="submit"  
+        onClick={showConfirmation}
+        className='sub-btn'/>
 </form>
-</div>
-</div>
 
+</div>
+     
+</div>
 </>
 
   )

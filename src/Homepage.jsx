@@ -8,8 +8,7 @@ export default function Homepage() {
   <>
 
 <main className='hero'>            
-
-<img src="https://user-images.githubusercontent.com/114012059/235873733-930828b7-4506-4a68-af15-aa11ae9043d8.png" alt="elephant with tusk"   className="img-hero"/>
+<img src="https://user-images.githubusercontent.com/114012059/236435150-22e4e6d5-0e8f-4e3b-87a2-7ae44b726e29.png" alt="elephant with tusk"  className="img-hero"/>
 
 <div className='home-nav-bar'>
 

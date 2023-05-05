@@ -1,12 +1,14 @@
-.contact-container {
-/* height: 100vh; */
-  background-color: #1d1d1d;
-    font-family: "tusker-36";
- display: grid;
 
+
+
+.contact-container {
+  background-color: #1d1d1d;
+font-family: "tusker-36";
+ display: grid;
  grid-template-columns: 1fr 1fr;
- padding-top: 25%;
+ padding-top: 5rem;
  gap: 30px;
+height: 100vh;
 
 
 }
@@ -15,21 +17,75 @@
 form{
   display: flex;
   flex-direction: column;
-  border: 2px solid whitesmoke;
-  width: fit-content;
-height: fit-content;
-padding: 30px;
+  width: 100%;
+/* height: fit-content; */
+/* padding: 90px;
+background-color: #2e2c2f;
+border-radius: 10px;
+color: whitesmoke;
+font-family: 'Poppins';
+
+margin-top: 13%;
+padding-bottom: 8rem;
+min-width: 500px;
+max-width: 500px; */
+
 
 }
 input{
 padding: 10px;
 margin-bottom: 10px;
-border: none;
+border: 1px solid whitesmoke;
 background-color: transparent;
+color: whitesmoke;
+padding-bottom: 10px;
+
 
 }
 
 textarea{
-
+outline: none;
   background-color: transparent;
+  padding-bottom: 30px;
 }
+
+.sub-btn:hover{
+
+background-color: black;
+cursor: pointer;
+}
+@media (max-width: 750px) {
+
+
+.contact-container {
+display: flex;
+flex-direction: column;
+height: max-content;
+
+
+  }
+
+
+
+  form{
+    padding: 10px;
+width: 100%;
+background-color: whitesmoke
+;
+
+  }
+.sub-btn{
+
+  color: white;
+  cursor: pointer;
+  background-color: #2d2b2b;
+  margin-top: 20px;
+}
+
+    .sub-btn:hover {
+  
+      background-color: rgba(43, 43, 43, 0.591);
+      cursor: pointer;
+    }
+}
+

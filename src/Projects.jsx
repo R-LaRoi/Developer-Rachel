@@ -19,7 +19,7 @@ export default function Projects() {
     <div>JAVASCRIPT</div>
     <div>JS REACT</div>
     <div> FIGMA</div>
-    <div>TYPESCRIPT</div>
+    <div>GITHUB</div>
        <div >PROJECTS</div>
   </div>
 

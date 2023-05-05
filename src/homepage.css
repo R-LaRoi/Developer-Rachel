@@ -1,11 +1,18 @@
 
 .hero{
-  background-color: #1d1d1b;
+background-color: #1d1d1b;
+display: flex;
+flex-direction: column;
+justify-content: space-around;
+align-items: center;
+
+overflow-y: hidden;
+height: 100vh;
+padding-bottom: 30px;
 }
 
 .img-hero{
-max-width: 1400px;
-  margin-left: 5rem;
+width:750px;
 
 } 
 
@@ -15,26 +22,48 @@ display: inline;
 font-family:'Tusker-36' ;
 font-size: 3.5rem;
 color: rgb(247, 244, 241);
-padding: 10px;
+padding: 20px;
 text-transform: uppercase;
 letter-spacing: 7px;
-display: flex;
-justify-content: space-between;
 max-width: fit-content;
-gap:60px;
-margin-left:32%;
-margin-top: -70px;
-
+gap:70px;
+margin-top: -60px;
 
 }
 
 a{
   text-decoration: none;
   color: rgb(225, 225, 225);
+  padding: 35px 30px 50px 0px;
 }
 
 a:hover {
   text-decoration: none;
-  color: rgb(255, 192, 75);
+ color: #ccb498;
+
+}
+
+
+@media (max-width:800px){
+.hero{
+margin: 10px;
+
+}
+
+.img-hero {
+    width: 450px;
+
+  }
+
+
+
+.home-nav-bar {
+  font-family: 'Tusker-36';
+  font-size: 2rem;
+  color: rgb(247, 244, 241);
+padding-top: 0;
+  margin-top: 0px;
+
+}
 
 }
