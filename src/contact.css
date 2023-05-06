@@ -58,9 +58,12 @@ cursor: pointer;
 
 
 .contact-container {
-display: flex;
-flex-direction: column;
-height: max-content;
+display: grid;
+grid-template-columns: 1fr;
+width: 100%;
+margin: 10px;
+padding-top: 8rem;
+overflow-x: hidden;
 
 
   }
@@ -68,10 +71,13 @@ height: max-content;
 
 
   form{
-    padding: 10px;
-width: 100%;
-background-color: whitesmoke
-;
+
+width:fit-content;
+background-color: whitesmoke;
+padding:150px;
+
+
+
 
   }
 .sub-btn{
@@ -86,6 +92,10 @@ background-color: whitesmoke
   
       background-color: rgba(43, 43, 43, 0.591);
       cursor: pointer;
+    }
+
+    .contact-img{
+      width: 500px;
     }
 }
 

@@ -34,42 +34,36 @@ font-size: 1rem ;
 top: 85%;
 left: 95%;
 }
-
-
-.mobile-links, .fa-bars{
-display: none;
+.home{
+  display: none;
 }
 
 
 
-@media only screen and (min-width: 320px) and (max-width: 768px) {
+@media(max-width: 750px) {
 
-.a-link{
-display: none;
+.initial{
+  display: none;
+}
+.home{
+  display: block;
+}
+
+.nav-bar{
+display: inline;
+background-color: #292727;
+font-size: 1.5rem;
+color: white;
+text-align: center;
+position: fixed;
+left: 10px;
 
 }
-  .fa-bars{
-      cursor: pointer;
-      left: 80%;  
-      display: inline-flex;
-      position: fixed;
-      color: #efefef;
-   
-  }
-  .mobile{
-    background-color: #212121;
-    width: 100%;
-    box-shadow: rgba(16, 15, 15, 0.58) 0px 5px 15px;
-    display: flex;
-     align-items: center;
-
-
-  color: #fff;
-
-
-  }
 
 
 
+.fa-house{
+  font-size: 1rem;
+}
 
 }

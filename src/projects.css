@@ -93,14 +93,25 @@ list-style: none;
 
 .project-container {
     background-color: #1d1d1d;
-    font-family: "tusker-36";
     display: grid;
-    grid-template-columns: 1fr;
-    gap: 6rem;
-    color: #f6f6f6;
-    max-width: 100%;
+      grid-template-columns: 1fr;
+      margin: 10px;
+      padding-top: 9rem;
+      padding-left: 25px;
 
 
   }
+
+
+   .pro-sub-text{
+  line-height: 35px;
+    font-family: "Tusker-36";
+    color: #f6f6f6;
+    font-size: 3rem;
+    letter-spacing: 3px;
+    text-align: center;
+
+
+   }
 
 }
