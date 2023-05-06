@@ -9,9 +9,11 @@ export default function Projects() {
 
   return(
 <>
-  <Navigation />
-<div className='project-container'>
 
+<div className='project-container'>
+    <Navigation />
+
+  <div style={{fontFamily:'TUSKER-SUPER', fontSize:'50px', marginTop:"12rem"}} className="title">PROJECTS</div>
   <div className='pro-sub-text'>
   
     <div>HTML</div>

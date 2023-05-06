@@ -2,7 +2,6 @@
 .project-container{
   background-color:#1d1d1d;
   font-family: "tusker-36";
-  padding: 15%;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   gap: 6rem;
@@ -26,9 +25,10 @@
 .pro-sub-text {
   line-height: 65px;
   font-family: "Tusker-36";
-  color: #f6f6f6;
+  color: #f6f6f6e8;
   font-size: 5rem;
   letter-spacing: 3px;
+  margin-top: 8rem;
 
 }
 
@@ -89,14 +89,13 @@ list-style: none;
 
 }
 
-@media (max-width:800px){
+@media (max-width:750px){
 
 .project-container {
     background-color: #1d1d1d;
     display: grid;
       grid-template-columns: 1fr;
       margin: 10px;
-      padding-top: 9rem;
       padding-left: 25px;
 
 
@@ -104,14 +103,20 @@ list-style: none;
 
 
    .pro-sub-text{
-  line-height: 35px;
+  line-height: 50px;
     font-family: "Tusker-36";
     color: #f6f6f6;
-    font-size: 3rem;
+    font-size: 4rem;
     letter-spacing: 3px;
     text-align: center;
+padding-top: 0%;
+margin-top: 10px;
 
+   }
 
+   .title{
+
+    display: none;
    }
 
 }

@@ -31,14 +31,21 @@ if (sendMessage) {
 
 return (
     <>
-<Navigation />
+
+
+
 
 <div className='contact-container'>
-<img src={imgContact} width="600px" className='contact-img'></img>
- <div>
-   
+  <div className='nav-pg'>
+  <Navigation />
+</div>
 
-                                                                                                                                                                                                           
+<div></div>
+  <img src={imgContact} width="600px" className='contact-img'></img>
+  <div>
+
+ <div>
+      
 <form action="" onSubmit={sendMessage} className="contact-form">
 
  
@@ -79,7 +86,7 @@ return (
         onClick={showConfirmation}
         className='sub-btn'/>
 </form>
-
+</div>
 </div>
      
 </div>
