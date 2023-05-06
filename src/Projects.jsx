@@ -23,13 +23,13 @@ export default function Projects() {
        <div >PROJECTS</div>
   </div>
 
-<img src={image1} className='project-images'></img>
+<img src={image1} className='project-images' alt="no alternative text" ></img>
     
 {/* ---------- */}
 <div className='img-grid'>
-<img src={image2} className='project-images' ></img>
+<img src={image2} className='project-images' alt="no alternative tex" ></img>
 <div className='text'> <ul>
-  <li>What’s the move? </li>
+  <li>Whats the move? </li>
   <li>Fitness Coach Profile </li>
   <li>HTML CSS </li>
 </ul>
@@ -40,9 +40,9 @@ export default function Projects() {
 
 
 <div className='img-grid'>
-<img src={image2} className='project-images' ></img>
+<img src={image2} className='project-images'  alt="no alternative tex"></img>
 <div className='text'><ul>
-  <li>What’s the move? </li>
+  <li>Whats the move? </li>
   <li>Fitness Coach Profile </li>
   <li>HTML CSS </li>
 </ul></div>
@@ -50,12 +50,12 @@ export default function Projects() {
 </div>
 {/* ---------- */}
 <div className='img-grid'>
-<img src={image1} className='project-images'></img>
+<img src={image1} className='project-images'  alt="no alternative tex"></img>
 <div className='text'> project one </div>
 </div>
 
 <div className='img-grid'>
-<img src={image1} className='project-images'></img>
+<img src={image1} className='project-images'  alt="no alternative tex"></img>
 <div className='text-ovr'> visit </div>
 <div className='text'> project two</div>
 
