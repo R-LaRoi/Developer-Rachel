@@ -23,6 +23,7 @@
 
 
 .fa-house{
+
 color: rgba(255, 255, 255, 0.625);
 }
 .fa-house:hover {
@@ -35,7 +36,6 @@ color: rgba(255, 255, 255, 0.625);
     color: rgba(255, 255, 255, 0.625);
 }
 
-.nav-elements {}
 
 .nav-elements ul {
   display: flex;
