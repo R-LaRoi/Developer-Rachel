@@ -1,19 +1,22 @@
 body{
-
   margin: 0;
 }
 
 @font-face {
-  font-family: "Tusker-28";
-  src: url("TuskerGrotesk-2800Super.otf");
+  font-family: "Visby-Heavy";
+  src: url("VisbyCF-Heavy.otf");
 }
 
 @font-face {
-  font-family: "Tusker-Super";
-  src: url("TuskerGrotesk-9800Super.otf");
+  font-family: "Visby-Bold";
+  src: url("VisbyCF-Bold.otf");
 }
 
 @font-face {
-  font-family: "Tusker-36";
-  src: url("TuskerGrotesk-3600Semibold.otf");
+  font-family: "Visby-Reg";
+  src: url("VisbyCF-Regular.otf");
+}
+@font-face {
+  font-family: "Visby-Thin";
+  src: url("VisbyCF-Thin.otf");
 }

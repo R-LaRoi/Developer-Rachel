@@ -14,7 +14,7 @@ export default function Navbar () {
       <div className="container">
       
         <div className="menu-icon" onClick={handleShowNavbar}>
-<i class="fa-solid fa-bars"></i>
+<i className="fa-solid fa-bars"></i>
         </div>
         <div className={`nav-elements  ${showNavbar && 'active'}`}>
           <ul>

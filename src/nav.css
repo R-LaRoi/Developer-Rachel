@@ -6,17 +6,19 @@
   justify-content: space-between;
   align-items: center;
   height: 100%;
-  color:white;
+/* border-bottom:5px solid #000000; */
       letter-spacing: 5px;
       text-transform: uppercase;
       list-style: none;
+      font-family: "Visby-Bold";
+      /* box-shadow: rgba(17, 17, 17, 0.2) 0px 3px 9px 0px;
+     */
 }
 
 .navbar {
-
     position: fixed;
-
     padding-left: 25%;
+    color: rgb(33, 33, 33);
 
 
 }
@@ -24,10 +26,10 @@
 
 .fa-house{
 
-color: rgba(255, 255, 255, 0.625);
+color: rgba(39, 39, 39, 0.625);
 }
 .fa-house:hover {
-  color: #574c4c;
+  color:rgb(253, 29, 66)
 }
 
 
@@ -41,6 +43,7 @@ color: rgba(255, 255, 255, 0.625);
   display: flex;
   justify-content: space-between;
   list-style-type: none;
+    color: rgb(33, 33, 33);
 }
 
 .nav-elements ul li:not(:last-child) {
@@ -48,24 +51,24 @@ color: rgba(255, 255, 255, 0.625);
 }
 
 .nav-elements ul a {
-
-  color: white;
+  color: rgb(33, 33, 33);
+ 
   text-decoration: none;
-    font-family: 'Tusker-36';
-      font-size: 1.5rem;
+font-family: "Visby-Bold", monospace;
+      font-size: 1rem;
 }
 
  .nav-elements ul a:hover {
 
-  color: #574c4c;
+  color:rgba(255, 0, 43, 0.89);
   text-decoration: none;
-  font-family: 'Tusker-36';
-  font-size: 1.5rem;
+font-family: "Visby-Bold", monospace;
+  font-size: 1rem;
 
 }
 
 .nav-elements ul a.active {
-  color: #574c4c;
+  color: rgba(255, 0, 43, 0.89);
   font-weight: 500;
   position: relative;
 }
@@ -81,9 +84,6 @@ color: rgba(255, 255, 255, 0.625);
 }
 
 
-
-
-
 @media (max-width: 768px) {
   .nav-elements ul li:not(:last-child) {
     margin-right: 30px;
@@ -94,7 +94,7 @@ color: rgba(255, 255, 255, 0.625);
   .menu-icon {
     display: block;
     cursor: pointer;
-    font-size: 2rem;
+    font-size: 1rem;
     padding: 15px;
     color: #eaeaea;
 
@@ -104,18 +104,19 @@ color: rgba(255, 255, 255, 0.625);
 
   .navbar{
     position: initial;
-        background-color: #1d1d1b;
+        background-color: #181818;
         padding-left: 10px;
   }
   .nav-elements {
     position: absolute;
     right: 0;
     top: 60px;
-    background-color: #1d1d1d;
+    background-color:#181818;
     width: 0px;
     height: calc(100vh - 60px);
     transition: all 0.3s ease-in;
     overflow: hidden;
+
   }
 
   .nav-elements.active {

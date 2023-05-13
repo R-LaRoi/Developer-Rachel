@@ -1,7 +1,9 @@
 import React, {useState} from 'react'
 import "./contact.css"
 import Navigation from './Navigation'
-import imgContact from "./2.png"
+import ele2 from "./ele2.gif"
+import Footer from './footer'
+import "./footer.css"
 
 export default function Contact() {
 const [userName , setUserName] = useState('')
@@ -33,22 +35,22 @@ return (
     <>
 
 
-
-
 <div className='contact-container'>
   <div className='nav-pg'>
   <Navigation />
 </div>
 
 <div></div>
-  <img src={imgContact} width="600px" className='contact-img'></img>
+  <img src={ele2} width="600px" className='contact-img'></img>
   <div>
 
  <div>
-      
+   
 <form action="" onSubmit={sendMessage} className="contact-form">
+   <div className='sub-text'>let's connect</div> 
+<div className='sm-txt'>Send a message. 
+  Connect with me on LinkedIn. </div>
 
- 
 <div style={{padding:"30px"}}> 
 {showConfirmation ? `${confirmation}` : `${contactMessage}`}
   </div>
@@ -90,6 +92,7 @@ return (
 </div>
      
 </div>
+<Footer/>
 </>
 
   )

@@ -1,25 +1,35 @@
-
 .goal-container{
-display: grid;
-grid-template-columns: 1fr 1fr;
-  background-color: rgb(236, 236, 236);
-height: 100vh;
-padding: 10%; }
+  height: 100vh;
+display: flex;
+font-family: 'Visby-Reg';
 
- 
-
-  
+ } 
 
 .sub-text{
-line-height: 20px;
-  font-family: "Tusker-36";
-
+  display: inline-block;
+  overflow: hidden;
+  width: min-content;
+  font-family: 'Visby-Bold';
+  text-transform: uppercase;
+  font-size: 3rem;
+animation:
+    typing 1.5s steps(15, end)forwards,
+    blink .8s infinite;
+  border-right: .1em solid rgb(253, 29, 66);
+  background-color: rgb(19, 19, 19);
+color: white;
 }
 
 .text{
 padding: 2rem;
 border-radius: 10px;
-font-family: "poppins";
+padding-top: 250px;
+max-width: 600px;
+position: relative;
+right:15%;
+line-height: 1.5;
+font-size: 1rem;
+letter-spacing: 1px;
 }
 
  
@@ -27,18 +37,15 @@ font-family: "poppins";
   .goal-container {
     display: grid;
     grid-template-columns: 1fr;
-      background-color: rgb(236, 236, 236);
       height: max-content;
       width: 100%;
- 
       padding: 0;
-      padding-top: 3rem;
-      overflow-x: hidden;
+      padding-top:2rem;
   }
 
 .bg-img{
 
-width:500px;
+width:700px;
 margin-top: 20px;
 
 }
