@@ -13,7 +13,7 @@ export default function Projects() {
  <Navigation />
 <main className='pro-container'>
 
-<div className='w-1'>  <img src="https://user-images.githubusercontent.com/114012059/236687956-50ff372e-8003-471f-b697-6a13fed89ab2.png" alt="" className='project-images' />
+<div className='w-1'>  <img src="https://user-images.githubusercontent.com/114012059/236687956-50ff372e-8003-471f-b697-6a13fed89ab2.png" alt="no alternative text" className='project-images' />
 
 <div>password generator html css javascript
   
@@ -35,7 +35,7 @@ export default function Projects() {
 </div>
 
 <div className='b-1'> 
-<img src="https://user-images.githubusercontent.com/114012059/236687965-9f7e25ce-f10f-40d4-8264-c4f79ff43def.png" alt="" srcset="" className='project-images' />
+<img src="https://user-images.githubusercontent.com/114012059/236687965-9f7e25ce-f10f-40d4-8264-c4f79ff43def.png" alt="no alternative text" className='project-images' />
  <div>password generator html css javascript
   
 </div></div>
@@ -45,7 +45,7 @@ export default function Projects() {
 <div className='b-1'><img src={image2} alt="no alternative text" className='project-images' /></div>
 
 <div className='b-1'> 
-<img src="https://user-images.githubusercontent.com/114012059/236687965-9f7e25ce-f10f-40d4-8264-c4f79ff43def.png" alt="" srcset="" className='project-images' />
+<img src="https://user-images.githubusercontent.com/114012059/236687965-9f7e25ce-f10f-40d4-8264-c4f79ff43def.png" alt="no alternative text" className='project-images' />
  </div>
 
 

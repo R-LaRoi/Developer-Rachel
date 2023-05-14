@@ -6,14 +6,12 @@
   padding-top: 20%;
   margin-left: 5%;
 gap: 50px;
+z-index: 1;
 
 }
 
 
-/* .w-1{
 
-  background-color: rgb(19, 18, 18);
-} */
 
 .project-images{
 width: 400px;
@@ -32,7 +30,29 @@ cursor: pointer;
 
 }
 
-.b-1{
+@media (max-width:760px){
 
-    
+.pro-container {
+    display: grid;
+    grid-template-columns: 1fr;
+    padding-top: 20%;
+    margin-left: 8%;
+    gap: 50px;
+
+  }
+
+}
+
+@media (min-width:761px) and (max-width:940px) {
+
+  .pro-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding-top: 20%;
+    margin-left: 7%;
+    gap: 30px;
+
+
+  }
+
 }
