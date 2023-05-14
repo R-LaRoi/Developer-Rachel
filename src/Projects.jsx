@@ -4,6 +4,7 @@ import Navigation from './Navigation'
 import Footer from './footer'
 import busybot from "./busybot.png"
 import image2 from "./image2.png"
+import flavor from "./flavor.png"
 
 export default function Projects() {
 
@@ -45,7 +46,7 @@ export default function Projects() {
 <div className='b-1'><img src={image2} alt="no alternative text" className='project-images' /></div>
 
 <div className='b-1'> 
-<img src="https://user-images.githubusercontent.com/114012059/236687965-9f7e25ce-f10f-40d4-8264-c4f79ff43def.png" alt="no alternative text" className='project-images' />
+<img src={flavor} className='project-images' />
  </div>
 
 
