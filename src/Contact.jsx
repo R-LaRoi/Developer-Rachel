@@ -1,9 +1,9 @@
 import React, {useState} from 'react'
 import "./contact.css"
 import Navigation from './Navigation'
-import ele2 from "./ele2.gif"
-import Footer from './footer'
-import "./footer.css"
+import bird from "./bird.gif"
+
+
 
 export default function Contact() {
 const [userName , setUserName] = useState('')
@@ -28,27 +28,46 @@ if (sendMessage) {
 
   
 }
+
+
+
+
+
+
 }
 
 
 return (
     <>
 
-
 <div className='contact-container'>
   <div className='nav-pg'>
   <Navigation />
 </div>
 
-<div></div>
-  <img src={ele2} width="600px" className='contact-img'></img>
-  <div>
 
- <div>
-   
-<form action="" onSubmit={sendMessage} className="contact-form">
-   <div className='sub-text'>let's connect</div> 
-<div className='sm-txt'>Send a message. 
+
+
+<img src={bird} className='bg-img' width={"1000px"}></img>
+
+
+
+<div className='contact-form'>
+
+ 
+<form action="" onSubmit={sendMessage} >
+  
+   {/* <div className='sub-text'>let's connect</div>  */}
+<div className='sm-txt'> <div className="">
+<div className=''>goals</div>
+<p className='p'>Innovation is essential throughout my process as an artist and developer. I am committed to creating projects that will engage and provide new perspectives. 
+
+I am interested in building user interfaces that integrate new technologies and design patterns.
+
+ </p>
+
+ <div><i className="fa-brands fa-github"> <i className="fa-brands fa-linkedin"> <i className="fa-solid fa-panorama"></i></i></i></div>
+</div>Send a message. 
   Connect with me on LinkedIn. </div>
 
 <div style={{padding:"30px"}}> 
@@ -90,9 +109,12 @@ return (
 </form>
 </div>
 </div>
+
+   
+
      
-</div>
-<Footer/>
+
+
 </>
 
   )

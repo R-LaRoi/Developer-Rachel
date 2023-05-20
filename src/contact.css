@@ -1,30 +1,39 @@
 
 .contact-container {
-  background-color: #ffffff;
+ background-color: #ffffff;
 font-family: "Visby-Reg";
- display: grid;
- grid-template-columns: 1fr 1fr;
- gap: 30px;
- height: 100vh;
+ display: flex;
+ flex-direction: row;
+ z-index: 1;
+ background-image: url(bird.gif);
+ background-size: contain;
+ background-repeat: no-repeat;
+ background-size: 950px;
 }
 
+.bg-img{
+  display: none;
+}
+
+.p{
+      width: 300px;
+}
 
 form{
   display: flex;
   flex-direction: column;
-  width: 100%;
-padding: 90px;
+padding: 170px;
 height: fit-content;
-
-border-radius: 10px;
 max-width: 500px;
-margin-left: -13%;
-color: #0b0b0b;
-
+color: white;
 
 
 }
-
+ .contact-form{
+background-color: rgb(34, 33, 33);
+position: relative;
+left: 53%;
+} 
 .sub-btn {
   background-color: rgba(32, 32, 32, 0.947);
   cursor: pointer;
@@ -73,57 +82,79 @@ outline: none;
 }
 
 
-
-
-
-
-
-
-
-
-
 @media (max-width: 750px) {
 
-
 .contact-container {
-display: grid;
-grid-template-columns: 1fr;
-margin: 10px;
-overflow-x: hidden;
-padding: 0;
+background-image: none;
+display: flex;
+flex-direction: column;
   }
 
 
 
-  form{
-
-
-background-color: whitesmoke;
-padding:150px;
-
-
-
-
-  }
 .sub-btn{
 
   color: white;
   cursor: pointer;
   background-color: #0b0b0b;
   margin-top: 20px;
+        border: none;
 }
 
     .sub-btn:hover {
   opacity: .4;
-      background-color: rgba(233, 50, 50, 0.873);
+      background-color: rgba(236, 236, 236, 0.873);
       cursor: pointer;
+
       
     }
 
-    .contact-img{
-      
-     
-      width: 500px;
+    form{
+
+      width: 300px;
     }
+
+   
 }
 
+
+
+@media (max-width: 750px) {
+.contact-container {
+    background-image: none;
+    display: flex;
+    flex-direction: column;
+    overflow-x: hidden;
+  }
+
+
+  .bg-img {
+    width: 700px;
+position: relative;
+z-index: 1;
+display: block;
+  
+  }
+
+  .text {
+    font-size: .9rem;
+    top: -100px;
+    left: 10%;
+    width: 330px;
+z-index: 2;
+  }
+
+
+  .contact-form{
+position: relative;
+left: -3%;
+margin: 0;
+
+  }
+
+
+  form{
+    padding: 0px;
+    margin-left: 70px;
+  }
+}
