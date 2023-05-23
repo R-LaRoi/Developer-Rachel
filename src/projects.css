@@ -1,33 +1,128 @@
 
-.pro-container{
+.page {
+display: flex;
+}
 
-   display: grid;
-  grid-template-columns: 1fr 1fr;
-  padding-top: 20%;
-  margin-left: 5%;
-gap: 40px;
-z-index: 1;
+.left {
+  width: 35%;
+  background-color: rgb(15, 14, 14);
+height: 100vh;
+position: fixed;
+padding: 35px;
+
+
 
 
 }
 
-.w-1{ display: flex;
-  flex-direction: column;
-border-bottom: 10px solid rgb(41, 41, 41);
-width: 150px;
-text-align: center;
+
+.top{
+
+  margin-top: -50px;
+}
+.ele{position: relative;
+  top: 90px;
+  margin-left: -20%;
+}
+
+.left-text{
+position: relative;
+    letter-spacing: 3px;
+      font-family: 'Bungee', cursive;
+      overflow: hidden;
+      font-weight: 300;
+      font-size: 3.5rem;
+      animation:
+        typing 1.5s steps(18, end)forwards,
+        blink .8s  infinite;
+      border-right: .1em solid #d72638;
+      color: rgb(233, 232, 232);
+}
+
+
+
+@keyframes typing {
+  from {
+    width: 0
+  }
+
+  to {
+    width: 98%
+  }
+
+}
+
+.right {
+  margin-left: 40%;
+width: 100%;
+  background-color: rgb(251, 251, 251);
+
+
+}
+.project-images {
+  width: 350px;
+  border-radius: 5px;
+box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+
 
 }
 
 
 
-.project-images{
-width: 500px;
-/* border-top: 20px solid #0e0e0e; */
-border-radius: 5px;
+.p-card{padding: 60px;
+  display: flex;
+box-shadow: rgba(50, 50, 105, 0.15) 0px 2px 5px 0px, rgba(0, 0, 0, 0.05) 0px 1px 1px 0px;
+  gap: 20px;
+  margin-top: 10px;
 
-box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+font-weight: 600px;
+color: rgb(32, 32, 32);
+font-size: 1rem;
 
+
+}
+
+.pro-txt{
+color: rgb(221, 221, 221);
+letter-spacing: 1.5px;
+line-height: 1.2;
+
+}
+
+
+.p-txt{
+  font-family: 'Bungee', cursive;
+  line-height: 3;
+  ;
+}
+
+.title{
+margin-top: 15%;
+  font-size: 1.4rem;
+  padding-left: 20px;
+font-weight: 400;
+  font-family: 'Bungee', cursive;
+ 
+}
+
+.sub-txt, .desc{
+font-weight: 400;
+  font-size: .8rem;
+  opacity: .8;
+  font-family: 'Poppins', sans-serif;
+}
+
+ 
+
+
+@keyframes typing {
+  from {
+    width: 0%
+  }
+
+  to {
+    width: 100%
+  }
 
 }
 
@@ -67,4 +162,4 @@ cursor: pointer;
 
 
 
-}
+} 

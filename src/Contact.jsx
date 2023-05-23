@@ -1,7 +1,7 @@
 import React, {useState} from 'react'
 import "./contact.css"
 import Navigation from './Navigation'
-import bird from "./bird.gif"
+import bird from "./bird.png"
 
 
 
@@ -10,7 +10,14 @@ const [userName , setUserName] = useState('')
 const [email , setEmail] = useState('')
 const [userMessage, setUserMessage] = useState('')
 const [confirmation, setConfirmation] = useState('')
+const [ helloWorld, setHelloWorld] = useState('')
 
+ setTimeout(() => {
+ setHelloWorld(
+<div className='time-text'>world</div>
+ 
+ )
+}, 1000);
 
 function sendMessage(e){
   e.preventDefault()
@@ -19,6 +26,8 @@ function sendMessage(e){
   setUserMessage('')
   setConfirmation(`Thank you ${userName} for your message!`)
 }
+
+
 
 function showConfirmation(){
   const contactMessage = "Always excited to hear  about new ideas. Send a message! I'm happy to connect." 
@@ -30,46 +39,39 @@ if (sendMessage) {
 }
 
 
-
-
-
-
 }
 
+return(
+<section>
+  <Navigation/>
+<div className="container">
+  <div className="left-col">
+    <div className='co-text'>
 
-return (
-    <>
-
-<div className='contact-container'>
-  <div className='nav-pg'>
-  <Navigation />
-</div>
-
-
-
-
-<img src={bird} className='bg-img' width={"1000px"}></img>
-
-
-
-<div className='contact-form'>
-
- 
-<form action="" onSubmit={sendMessage} >
-  
-   {/* <div className='sub-text'>let's connect</div>  */}
-<div className='sm-txt'> <div className="">
-<div className=''>goals</div>
-<p className='p'>Innovation is essential throughout my process as an artist and developer. I am committed to creating projects that will engage and provide new perspectives. 
-
+              <div className='left-text hello'>  
+              hello   {helloWorld}
+              </div>
+          
+            <div className='pro-txt reveal'>
+              <div className='p-txt'>  <div className='hwt'>
 I am interested in building user interfaces that integrate new technologies and design patterns.
+        </div>
+          
+                </div>
+            </div>
+            </div>
+            
 
- </p>
+        
+  </div>
 
- <div><i className="fa-brands fa-github"> <i className="fa-brands fa-linkedin"> <i className="fa-solid fa-panorama"></i></i></i></div>
-</div>Send a message. 
-  Connect with me on LinkedIn. </div>
 
+  <div className=" right-col">
+      <div className='col-container'>
+       <div><i className="fa-brands fa-square-github"></i>
+       <i class="fa-brands fa-linkedin"></i>
+       <i class="fa-solid fa-palette"></i></div>
+     <form>
 <div style={{padding:"30px"}}> 
 {showConfirmation ? `${confirmation}` : `${contactMessage}`}
   </div>
@@ -107,15 +109,13 @@ I am interested in building user interfaces that integrate new technologies and 
         onClick={showConfirmation}
         className='sub-btn'/>
 </form>
+        
 </div>
 </div>
+     </div>
 
-   
+</section>
+)
 
-     
-
-
-</>
-
-  )
+  
 }
