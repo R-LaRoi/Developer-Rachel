@@ -91,29 +91,40 @@ top: 45%;
 
 @media (max-width:480px) {
 
+
+.nav-home {
+  position: relative;
+  bottom:720px;
+right: 160px;
+}
+
+
   .hero {
     background-image: url(mobile.gif);
-    background-size: 460px;
+    background-size: 450px;
     background-repeat: no-repeat;
-    width: 450px;
-    overflow-y: hidden;
-
+    background-position:bottom left -380%;
+ width: 480px;
+height: 100vh;
+overflow: hidden;
+margin-top: -5%;
+position: fixed;
   }
 
 
     .type-container {
       position: relative;
-      top: 130px;
-      left: 6%;
+top: 85%;
+      left: 43%;
       font-size: 2rem;
       letter-spacing: 2px;
-      overflow: hidden;
-    
+ 
+    overflow: hidden;
       animation: 1s ease 0s 1 normal forwards;
 
     }
         .name {
-    font-size: 3.5rem;
+    font-size: 3.3rem;
     animation:
       typing 1.5s steps(18, end)forwards,
       blink .8s infinite;
@@ -134,7 +145,7 @@ top: 45%;
         }
     
         .m-text {
-          font-size: 1.1rem;
+          font-size: .8rem;
 
 line-height: 1;
         }

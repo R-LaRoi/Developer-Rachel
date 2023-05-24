@@ -160,12 +160,6 @@ flex-direction: column;
 
 
 
-
-
-
-
-
-
 @media (max-width:580px) {
 
 .page {
@@ -173,13 +167,14 @@ flex-direction: column;
 grid-template-columns: 1fr;
 background-color: rgb(251, 251, 251);
 text-align: center;
+overflow: hidden;
   }
 
   .left {
 position: relative;
     background-color: rgb(15, 14, 14);
     height: 100vh;
-    padding: 35px;
+    padding: 0px;
 width: 100%;
   }
 
@@ -187,7 +182,7 @@ width: 100%;
 
 
 .p-card {
-  margin-left: -170px;
+  margin-left: -210px;
   padding: 40px;
   display: flex;
   flex-direction: column;

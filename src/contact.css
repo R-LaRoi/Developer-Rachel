@@ -40,10 +40,12 @@ margin-top: 30%;
 }
 
 .hwt{
-
+position: relative;
   font-family: Poppins;
   line-height: 1.4;
   width: 400px;
+
+
 }
 .time-text{
 
@@ -139,7 +141,8 @@ width: 600px;
 .container {
     display: flex;
     flex-direction: column;
-    width: 450px;
+
+    overflow: hidden;
 
   }
 

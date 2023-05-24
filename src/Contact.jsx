@@ -54,7 +54,7 @@ return(
           
             <div className='pro-txt reveal connect'>
               <div className='p-txt'>  <div className='hwt'>
-Let's connect! Always happy to hear from you. 
+
         </div>
           
                 </div>
