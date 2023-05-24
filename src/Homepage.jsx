@@ -10,15 +10,16 @@ export default function Homepage() {
 
 <main className='hero'>  
 
-<div className ="">
+
+<Navbar />
 
 <div className='type-container' >
   <div className="reveal sm-txt">MEET</div>
 <div className="name">RACHEL</div>
 <div className="reveal  m-text">FRONTEND DEVELOPER</div>
-<Navbar />
 
-</div>
+
+
 
 
 

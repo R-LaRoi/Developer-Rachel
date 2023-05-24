@@ -52,9 +52,9 @@ return(
               hello   {helloWorld}
               </div>
           
-            <div className='pro-txt reveal'>
+            <div className='pro-txt reveal connect'>
               <div className='p-txt'>  <div className='hwt'>
-I am interested in building user interfaces that integrate new technologies and design patterns.
+Let's connect! Always happy to hear from you. 
         </div>
           
                 </div>

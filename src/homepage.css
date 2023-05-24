@@ -5,6 +5,7 @@ background-image: url(desktop.gif);
 background-repeat: no-repeat;
 background-size: cover;
 font-family: 'Bungee', cursive;
+overflow: hidden;
 
 }
 
@@ -84,7 +85,66 @@ top: 45%;
 
 
 
+/* @media screen and (min-width: 1024px) {} */
 
+
+
+@media (max-width:480px) {
+
+  .hero {
+    background-image: url(mobile.gif);
+    background-size: 460px;
+    background-repeat: no-repeat;
+    width: 450px;
+    overflow-y: hidden;
+
+  }
+
+
+    .type-container {
+      position: relative;
+      top: 130px;
+      left: 6%;
+      font-size: 2rem;
+      letter-spacing: 2px;
+      overflow: hidden;
+    
+      animation: 1s ease 0s 1 normal forwards;
+
+    }
+        .name {
+    font-size: 3.5rem;
+    animation:
+      typing 1.5s steps(18, end)forwards,
+      blink .8s infinite;
+    border-right: .1em solid #d72638;
+    color: rgb(28, 28, 28);
+
+  }
+
+
+    
+        .desktopImg {
+          display: none;
+        }
+    
+        .sm-txt {
+          font-size: .8rem;
+            line-height: 1.5;
+        }
+    
+        .m-text {
+          font-size: 1.1rem;
+
+line-height: 1;
+        }
+
+}
+      
+    
+
+
+/* 
 @media (max-width:900px){
 .hero{
 background-image: url(mobile.gif);
@@ -126,4 +186,4 @@ line-height: 1.5;
 .m-text{
   font-size: 1rem;
 }
-}
+} */

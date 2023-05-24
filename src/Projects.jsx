@@ -12,9 +12,10 @@ export default function Projects() {
   return(
 <section>
  <Navigation />
-<div class="page">
-  <div class="column left"> 
+<div className="page">
+<div className="column left">
 <div className='top'>
+
 <img src={ele} alt="no alternative text" width={"435px"}  className="ele"/>
 <div className='left-text'>  
 PROJECTS
@@ -22,7 +23,7 @@ PROJECTS
 
 <div className='pro-txt reveal'>
   <div className='p-txt'> REACT | JAVASCRIPT | HTML | CSS </div>
- Interested in building user interfaces that integrate new technologies and design patterns. I am committed to creating projects that will engage and provide new perspectives.</div>
+ Interested in building user interfaces that integrate new technologies and design patterns. Committed to creating projects that will engage and provide new perspectives.</div>
 
 
 </div>

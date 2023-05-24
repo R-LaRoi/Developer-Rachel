@@ -126,3 +126,60 @@ width: 600px;
   margin-left: 10%;
     font-family: 'Poppins', sans-serif;
 }
+
+
+
+@media (max-width:950px){
+
+  
+}
+
+
+@media (max-width:580px){
+.container {
+    display: flex;
+    flex-direction: column;
+    width: 450px;
+
+  }
+
+
+
+    .left-col {
+      background-image: url(bird.png);
+      background-size: 529px;
+      background-repeat: no-repeat;
+      background-position: left 130%;
+      background-color: rgb(15, 14, 14);
+width: 100%; 
+  
+    }
+
+        form {
+          display: flex;
+          flex-direction: column;
+      
+          border-radius: 10px;
+          color: rgb(233, 232, 232);
+         
+overflow-x: hidden;
+          width: 350px;
+    
+    
+        }
+
+                .right-col {
+                  width: 100%;
+                  background-color: rgb(250, 250, 250);
+        text-align: center;
+        
+        
+        
+                }
+
+                .hwt{
+font-family: 'Russo One';
+                  width:330px;
+                  text-align: center;
+                }
+}
