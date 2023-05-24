@@ -35,5 +35,16 @@ border-right: 10px solid #d72638;
   }
 
 .fa-house{
-  color: #d72638;
+  color: #f4f4f4;
+  background-color: black;
+border: 3px solid black;
+  font-size: .8rem;
+}
+
+ .fa-house:hover{
+
+background-color:
+#d72638;
+border: 3px solid #d72638;
+font-size: 1rem;
 }

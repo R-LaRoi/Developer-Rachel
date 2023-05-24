@@ -29,14 +29,33 @@ PROJECTS
 </div>
 
   </div>
-  <div class="column right">
+  <div className="column right">
+
+
+    <div className='p-card'> 
+    <img src="https://user-images.githubusercontent.com/114012059/236687965-9f7e25ce-f10f-40d4-8264-c4f79ff43def.png" alt="no alternative text" className='project-images' />
+   
+         <div className='title'> The Prolouge  | Book Blog
+            <p className='desc'> JAVASCRIPT | CSS | HTML </p>
+<button>
+                      <a href="https://github.com/R-LaRoi/writers-block-v3/tree/master/src" target= "_blank">
+                      <i className="fa-brands fa-square-github"> 
+                      </i>
+                      </a>
+                      </button>
+          </div>
+
+    </div>
     
     <div className='p-card'> 
                 <img src={image2} alt="no alternative text" className='project-images' />
           <div className='title'>What's The Move | Excercise Log
-            <div className='sub-txt'>Celebrate your small wins and keep track of your routine.</div>
+            <div className='sub-txt'>Celebrate your small wins and keep track of your routine. 
             <p className='desc'> Vanilla JS | FIREBASE | CSS | HTML</p>
+            <button> <a href="https://github.com/R-LaRoi/Move-v2" target= "_blank">View Page</a></button>
+<button><a href="https://github.com/R-LaRoi/Move-v2" target= "_blank"><i className="fa-brands fa-square-github"> </i></a></button>
 
+</div>
           </div>
   </div>
   
@@ -45,27 +64,41 @@ PROJECTS
           <div className='title'>Saint Lucia Travel Page 
             <div className='sub-txt'>Responsive Layout</div>
             <p className='desc'> CSS | HTML </p>
-
+                <button> 
+                  <a href="https://melodious-haupia-724aa8.netlify.app/" target= "_blank">View Page
+                  </a>
+                  </button>
+                <button><a href="https://github.com/R-LaRoi/Travel-Saint-Lucia" target= "_blank"><i className="fa-brands fa-square-github"> </i></a></button>
           </div>
   </div> 
 
-   
+  
     <div className='p-card'> 
         <img src={busybot} alt="" className='project-images' />
           <div className='title'>Busy Bot
-     
+
             <div className='sub-txt'>Let Busy Bot tell you what to do! </div>
             <p className='desc'> JAVASCRIPT | CSS | HTML | API </p>
-
+                    <button>
+                      <a href="https://github.com/R-LaRoi/ScrimbaFrontEndPath/tree/main/API/BoredBot
+                    " target= "_blank">
+                      <i className="fa-brands fa-square-github"> 
+                      </i>
+                      </a>
+                      </button>
           </div>
   </div> 
     <div className='p-card'> 
           <img src="https://user-images.githubusercontent.com/114012059/236687956-50ff372e-8003-471f-b697-6a13fed89ab2.png" alt="no alternative text" className='project-images' />
             <div className='title'>Password Generator
-    
             <div className='sub-txt'>Generate your new password here. </div>
             <p className='desc'> JAVASCRIPT | CSS | HTML </p>
-
+                   <button>
+                      <a href="https://github.com/R-LaRoi/ScrimbaFrontEndPath/tree/main/WebBasics/PasswordGenerator" target= "_blank">
+                      <i className="fa-brands fa-square-github"> 
+                      </i>
+                      </a>
+                      </button>
           </div>
   </div>
 
@@ -74,16 +107,12 @@ PROJECTS
          <div className='title'>Flavor Ice Cream App
     
             <p className='desc'> JAVASCRIPT | CSS | HTML </p>
-
-          </div>
-
-    </div>
-    <div className='p-card'> 
-    <img src="https://user-images.githubusercontent.com/114012059/236687965-9f7e25ce-f10f-40d4-8264-c4f79ff43def.png" alt="no alternative text" className='project-images' />
-   
-         <div className='title'> The Prolouge  | Book Blog
-            <p className='desc'> JAVASCRIPT | CSS | HTML </p>
-
+<button>
+                      <a href="https://github.com/R-LaRoi/Flavor-App" target= "_blank">
+                      <i className="fa-brands fa-square-github"> 
+                      </i>
+                      </a>
+                      </button>
           </div>
 
     </div>

@@ -110,8 +110,23 @@ font-weight: 400;
   font-family: 'Poppins', sans-serif;
 }
 
- 
 
+button{
+margin-right: 10px;
+border: none;
+  border-radius: 5px;
+  background-color: white;
+  color: rgb(32, 32, 32);
+  padding: 5px;
+  font-family: 'Bungee', cursive;
+ font-size: 1rem;
+}
+ 
+button:hover{
+
+  background-color: rgb(32, 32, 32);
+  color: rgb(236, 236, 236);
+}
 
 @keyframes typing {
   from {
