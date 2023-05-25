@@ -1,5 +1,5 @@
 
-import { NavLink } from 'react-router-dom'
+import { Link } from 'react-router-dom'
 import './nav.css'
 
 export default function Navbar () {
@@ -9,14 +9,14 @@ export default function Navbar () {
 <nav className="navbar"> 
 <ul className='links home-link'>
   <li className='link'>
-  <NavLink to='/projects'>projects</NavLink>
+  <Link to='projects'>projects</Link>
   </li>
   <li className="link">
-  <NavLink to='/contact'>connect</NavLink>
+  <Link to='contact'>connect</Link>
   </li>
   <li className=''>
-  <NavLink to='/home'> 
-  <i className="fa-solid fa-location-arrow"></i></NavLink>
+  <Link to='/'> 
+  <i className="fa-solid fa-location-arrow"></i></Link>
   </li>
 
 

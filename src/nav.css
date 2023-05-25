@@ -16,11 +16,11 @@ color: rgb(28, 28, 28);
           display: flex;
           gap: 30px;
 line-height: 1;
-            font-size: 1.5rem;
+            font-size: 1rem;
       padding: 5px;
       font-family: 'Russo One', sans-serif;
       text-transform: uppercase;
-      text-shadow: #d72638;
+      
       height: 20px;
 
         }
@@ -32,6 +32,7 @@ border-left: 10px solid #d72638;
        a:hover, .link:hover{
           border-left: transparent;
           color:#797777; 
+      
   }
 
 .fa-location-arrow{
