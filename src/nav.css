@@ -6,7 +6,7 @@ display: flex;
 
 
 a{
-color: black;
+color: rgb(28, 28, 28);
   text-decoration: none;
 
  }
@@ -16,35 +16,35 @@ color: black;
           display: flex;
           gap: 30px;
 line-height: 1;
-            font-size: 1rem;
-       
+            font-size: 1.5rem;
       padding: 5px;
       font-family: 'Russo One', sans-serif;
       text-transform: uppercase;
       text-shadow: #d72638;
+      height: 20px;
 
         }
         .link{ 
-border-bottom: 3px solid #d72638;
+border-left: 10px solid #d72638;
 
         }
 
        a:hover, .link:hover{
-          border-right: transparent;
-          color:#d72638; 
+          border-left: transparent;
+          color:#797777; 
   }
 
-.fa-house{
-  color: #f4f4f4;
-  background-color: black;
-border: 3px solid black;
-  font-size: .8rem;
+.fa-location-arrow{
+
+color: rgb(28, 28, 28);
+
+  font-size: 2rem;
 }
 
- .fa-house:hover{
+ .fa-location-arrow:hover{
 
-background-color:
-#d72638;
-border: 3px solid #d72638;
-font-size: 1rem;
+color:
+#fafafa;
+font-size: 2rem;
+text-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }

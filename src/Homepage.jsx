@@ -10,7 +10,6 @@ export default function Homepage() {
 
 <main className='hero'>  
 
-
 <div className='type-container' >
   <div className="reveal sm-txt">MEET</div>
 <div className="name">RACHEL</div>
@@ -18,6 +17,7 @@ export default function Homepage() {
 <div className='nav-home'><Navbar  /></div>
 </div>
 </main>
+
 
 
 

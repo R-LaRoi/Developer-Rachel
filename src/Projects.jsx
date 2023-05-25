@@ -36,7 +36,7 @@ PROJECTS
     <img src="https://user-images.githubusercontent.com/114012059/236687965-9f7e25ce-f10f-40d4-8264-c4f79ff43def.png" alt="no alternative text" className='project-images' />
    
          <div className='title'> The Prolouge  | Book Blog
-            <p className='desc'> JAVASCRIPT | CSS | HTML </p>
+            <p className='desc'> JAVASCRIPT | CSS | HTML | DICTIONARY API</p>
 <button>
                       <a href="https://github.com/R-LaRoi/writers-block-v3/tree/master/src" target= "_blank">
                       <i className="fa-brands fa-square-github"> 

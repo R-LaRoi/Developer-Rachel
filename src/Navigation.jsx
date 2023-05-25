@@ -7,19 +7,21 @@ export default function Navbar () {
 
   return (
 <nav className="navbar"> 
-<ul className='links'>
-  <li>
-  <NavLink to='/home'> 
-  <i className="fa-solid fa-house"></i></NavLink>
-  </li>
-<li className='link'>
+<ul className='links home-link'>
+  <li className='link'>
   <NavLink to='/projects'>projects</NavLink>
   </li>
-
-
-<li className="link">
+  <li className="link">
   <NavLink to='/contact'>connect</NavLink>
   </li>
+  <li className=''>
+  <NavLink to='/home'> 
+  <i className="fa-solid fa-location-arrow"></i></NavLink>
+  </li>
+
+
+
+
 
 
 
