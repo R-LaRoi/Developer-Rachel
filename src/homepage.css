@@ -8,6 +8,10 @@ font-family: 'Bungee', cursive;
 overflow: hidden;
 
 }
+.nv-mobile {
+
+  display: none;
+}
 
 .m-text{
 letter-spacing: 3px;
@@ -19,7 +23,7 @@ line-height: .3;
   margin-top: -15px;
   letter-spacing: 1px;
 font-family: 'Bungee', cursive;
-/* font-family: 'Russo One', sans-serif; */
+
   overflow: hidden;
   font-weight: 300;
   font-size: 8rem;
@@ -27,7 +31,7 @@ font-family: 'Bungee', cursive;
     typing 1.5s steps(18, end)forwards,
     blink .8s infinite;
   border-right: .3em solid #d72638;
-
+line-height: 1;
  }
 
 
@@ -58,7 +62,7 @@ left:50%;
 
 @keyframes typing{
  from{width:0}
- to { width:80%}
+ to { width:60%}
 
 }
 
@@ -89,10 +93,13 @@ left:50%;
 
 
 @media (max-width:480px) {
+.nv{
 
+  display: none;
+}
   .hero {
     background-image: url(mobile.gif);
-    background-size: 400px;
+    background-size: 300px;
     background-repeat: no-repeat;
     background-position:bottom left -100%;
  width: 480px;
@@ -141,19 +148,31 @@ margin-top: -30px;
 
 line-height: 1;
         }
+                .nv-mobile {
+                  display:block;
+                  display: flex;
+                  flex-direction: column;
+                 font-size: 1.2rem;
+          position: fixed;
+           bottom: 8%;
+           left: 55%;
+           border-left: 20px solid #d72638;
+    
+             
+                }
 
 }
 
 .home-link{
   position: relative;
-top: 580px;
   display: flex;
   flex-direction: column;
   gap: 10px;
- left: 250px;
+
 border-bottom: transparent;
 }
-      
+
+
     
 
 
