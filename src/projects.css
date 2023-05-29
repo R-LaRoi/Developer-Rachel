@@ -111,20 +111,20 @@ font-weight: 400;
 }
 
 
-button{
+.pro-btn{
 margin-right: 10px;
 border: none;
-  border-radius: 5px;
-  background-color: white;
+background-color:inherit
+;
   color: rgb(32, 32, 32);
   padding: 5px;
   font-family: 'Bungee', cursive;
  font-size: 1rem;
 }
  
-button:hover{
+.pro-btn:hover{
 
-  background-color: rgb(32, 32, 32);
+  border-bottom:5px solid #d72638;
   color: rgb(236, 236, 236);
 }
 
@@ -182,8 +182,8 @@ width: 100%;
 
 
 .p-card {
-  margin-left: -210px;
-  padding: 40px;
+margin-left: -62%;
+  padding: 75px 65px;
   display: flex;
   flex-direction: column;
   gap: 20px;
@@ -197,34 +197,39 @@ width: 100%;
 .title{
   margin-top: 5%;
     font-size: 1rem;
-margin-left: -50px;
+margin-left: -40px;
     font-family: 'Bungee', cursive;
 }
 
 .left-text{
   font-size: 2.5rem;
 
+
 }
 
 .ele{
 position: relative;
-left:70px;
-
+left:50px;
 }
 .pro-txt{
-  font-size: 1rem;
-  width: 350px;
+margin-top: -90px;
+ width: 340px; 
 position: relative;
-  left: 5px;
-  margin-top: -90px;
+padding: 10px;
+
 
 }
 
 
 .project-images {
   width: 350px;
-margin-left: 35px;
   border-radius: 5px;
   box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+.top{
+padding: 20px;
+  width: 330px;
+  margin-left: 50px;
 }
 }

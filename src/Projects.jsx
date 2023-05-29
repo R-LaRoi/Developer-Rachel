@@ -37,7 +37,7 @@ PROJECTS
    
          <div className='title'> The Prolouge  | Book Blog
             <p className='desc'> JAVASCRIPT | CSS | HTML | DICTIONARY API</p>
-<button>
+<button className='pro-btn'>
                       <a href="https://github.com/R-LaRoi/writers-block-v3/tree/master/src" target= "_blank">
                       <i className="fa-brands fa-square-github"> 
                       </i>
@@ -52,8 +52,8 @@ PROJECTS
           <div className='title'>What's The Move | Excercise Log
             <div className='sub-txt'>Celebrate your small wins and keep track of your routine. 
             <p className='desc'> Vanilla JS | FIREBASE | CSS | HTML</p>
-            <button> <a href="https://github.com/R-LaRoi/Move-v2" target= "_blank">View Page</a></button>
-<button><a href="https://github.com/R-LaRoi/Move-v2" target= "_blank"><i className="fa-brands fa-square-github"> </i></a></button>
+            <button className='pro-btn'> <a href="https://github.com/R-LaRoi/Move-v2" target= "_blank">View Page</a></button>
+<button className='pro-btn'><a href="https://github.com/R-LaRoi/Move-v2" target= "_blank"><i className="fa-brands fa-square-github"> </i></a></button>
 
 </div>
           </div>
@@ -64,11 +64,11 @@ PROJECTS
           <div className='title'>Saint Lucia Travel Page 
             <div className='sub-txt'>Responsive Layout</div>
             <p className='desc'> CSS | HTML </p>
-                <button> 
+                <button className='pro-btn'> 
                   <a href="https://melodious-haupia-724aa8.netlify.app/" target= "_blank">View Page
                   </a>
                   </button>
-                <button><a href="https://github.com/R-LaRoi/Travel-Saint-Lucia" target= "_blank"><i className="fa-brands fa-square-github"> </i></a></button>
+                <button className='pro-btn'><a href="https://github.com/R-LaRoi/Travel-Saint-Lucia" target= "_blank"><i className="fa-brands fa-square-github"> </i></a></button>
           </div>
   </div> 
 
@@ -79,7 +79,7 @@ PROJECTS
 
             <div className='sub-txt'>Let Busy Bot tell you what to do! </div>
             <p className='desc'> JAVASCRIPT | CSS | HTML | API </p>
-                    <button>
+                    <button className='pro-btn'>
                       <a href="https://github.com/R-LaRoi/ScrimbaFrontEndPath/tree/main/API/BoredBot
                     " target= "_blank">
                       <i className="fa-brands fa-square-github"> 
@@ -93,7 +93,7 @@ PROJECTS
             <div className='title'>Password Generator
             <div className='sub-txt'>Generate your new password here. </div>
             <p className='desc'> JAVASCRIPT | CSS | HTML </p>
-                   <button>
+                   <button className='pro-btn'>
                       <a href="https://github.com/R-LaRoi/ScrimbaFrontEndPath/tree/main/WebBasics/PasswordGenerator" target= "_blank">
                       <i className="fa-brands fa-square-github"> 
                       </i>
@@ -107,7 +107,7 @@ PROJECTS
          <div className='title'>Flavor Ice Cream App
     
             <p className='desc'> JAVASCRIPT | CSS | HTML </p>
-<button>
+<button className='pro-btn'>
                       <a href="https://github.com/R-LaRoi/Flavor-App" target= "_blank">
                       <i className="fa-brands fa-square-github"> 
                       </i>

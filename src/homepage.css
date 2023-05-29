@@ -92,16 +92,16 @@ left:50%;
 
 
 
-@media (max-width:480px) {
+@media (max-width:580px) {
 .nv{
 
   display: none;
 }
   .hero {
     background-image: url(mobile.gif);
-    background-size: 300px;
+    background-size: 500px;
     background-repeat: no-repeat;
-    background-position:bottom left -100%;
+    background-position:bottom left -175px;
  width: 480px;
 height: 100vh;
 overflow: hidden;

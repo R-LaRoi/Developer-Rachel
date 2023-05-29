@@ -17,7 +17,7 @@ export default function Homepage() {
 <div className="reveal  m-text">FRONTEND DEVELOPER</div>
 <div className='nv-mobile'>
 
-<Link to='/contact'>projects</Link>
+<Link to='/projects'>projects</Link>
 <Link to='/contact'>connect</Link>
 
 </div>
