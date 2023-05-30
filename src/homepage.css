@@ -8,15 +8,24 @@ font-family: 'Bungee', cursive;
 overflow: hidden;
 
 }
-.nv-mobile {
 
-  display: none;
+.nv-mobile {
+  display: block;
+    display: flex;
+    flex-direction: row;
+
+    font-size: 1.2rem;
+  line-height: 1.5;
+  margin-left: 5px;
+
+
 }
 
 .m-text{
 letter-spacing: 3px;
-font-size: 1.5rem;
+font-size: 1.3rem;
 line-height: .3;
+
 
 }
  .name {
@@ -36,8 +45,9 @@ line-height: 1;
 
 
   .sm-txt{
-   font-size: 2rem;
-
+   font-size: 1.3rem;
+  letter-spacing: 3px;
+padding: 5px;
   }
 
 .reveal{
@@ -62,7 +72,7 @@ left:50%;
 
 @keyframes typing{
  from{width:0}
- to { width:60%}
+ to { width:80%}
 
 }
 
@@ -99,10 +109,10 @@ left:50%;
 }
   .hero {
     background-image: url(mobile.gif);
-    background-size: 500px;
+    background-size: 450px;
     background-repeat: no-repeat;
-    background-position:bottom left -175px;
- width: 480px;
+    background-position:bottom left -145px;
+width: 440px;
 height: 100vh;
 overflow: hidden;
 margin-top: -5%;
@@ -156,8 +166,8 @@ line-height: 1;
           position: fixed;
            bottom: 8%;
            left: 55%;
-           border-left: 20px solid #d72638;
-    
+           border-left: 15px solid #d72638;
+
              
                 }
 

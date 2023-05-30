@@ -68,9 +68,9 @@ return(
 
   <div className=" right-col">
       <div className='col-container'>
-       <div><i className="fa-brands fa-square-github"></i>
-       <i class="fa-brands fa-linkedin"></i>
-       <i class="fa-solid fa-palette"></i></div>
+       <div><a href="https://github.com/R-LaRoi/" target= "_blank" alt="no alternative text"><i className="fa-brands fa-github icon"></i></a> <a href="https://www.linkedin.com/in/rachel-stroy-978397277" target= "_blank" alt="no alternative text">
+       <i class="fa-brands fa-linkedin-in icon"></i></a>
+       <a href='https://www.rachelstroy.com/' target= "_blank" alt="no alternative text"><i class="fa-solid fa-palette icon"></i></a></div>
      <form>
 <div style={{padding:"30px"}}> 
 {showConfirmation ? `${confirmation}` : `${contactMessage}`}

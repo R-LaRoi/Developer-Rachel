@@ -9,14 +9,14 @@ export default function Homepage() {
     
   <>
 
-<main className='hero'>  
-<div className='nv'><Navbar  /></div>
+<main className='hero '>  
+{/* <div className='nv'><Navbar  /></div> */}
 <div className='type-container' >
   <div className="reveal sm-txt">MEET</div>
 <div className="name">RACHEL</div>
 <div className="reveal  m-text">FRONTEND DEVELOPER</div>
-<div className='nv-mobile'>
-
+<div className='nv-mobile' >
+  
 <Link to='/projects'>projects</Link>
 <Link to='/contact'>connect</Link>
 
