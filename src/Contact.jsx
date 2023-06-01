@@ -53,7 +53,9 @@ return(
               </div>
           
             <div className='pro-txt reveal connect'>
-              <div className='p-txt'>  <div className='hwt'>
+              <div className='p-txt'> Let's connect!<div><a href="https://github.com/R-LaRoi/" target= "_blank" alt="no alternative text"><i className="fa-brands fa-github icon"></i></a> <a href="https://www.linkedin.com/in/rachel-stroy-978397277" target= "_blank" alt="no alternative text">
+       <i class="fa-brands fa-linkedin-in icon"></i></a>
+       <a href='https://www.rachelstroy.com/' target= "_blank" alt="no alternative text"><i class="fa-solid fa-palette icon"></i></a></div> <div className='hwt'>
 
         </div>
           
@@ -65,13 +67,11 @@ return(
         
   </div>
 
-
+<div></div>
   <div className=" right-col">
       <div className='col-container'>
-       <div><a href="https://github.com/R-LaRoi/" target= "_blank" alt="no alternative text"><i className="fa-brands fa-github icon"></i></a> <a href="https://www.linkedin.com/in/rachel-stroy-978397277" target= "_blank" alt="no alternative text">
-       <i class="fa-brands fa-linkedin-in icon"></i></a>
-       <a href='https://www.rachelstroy.com/' target= "_blank" alt="no alternative text"><i class="fa-solid fa-palette icon"></i></a></div>
-     <form>
+       
+     <form className='mobile-form'>
 <div style={{padding:"30px"}}> 
 {showConfirmation ? `${confirmation}` : `${contactMessage}`}
   </div>
