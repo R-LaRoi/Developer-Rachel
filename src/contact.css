@@ -160,7 +160,6 @@ width: 600px;
 
     .left-col {
       background-image: none;
-  
       background-color: rgb(15, 14, 14);
 width: 100%; 
   
@@ -180,7 +179,7 @@ width: 100%;
         top: 600px;
         background-color: #a4a3a314;
           color: rgba(233, 232, 232, 0.311);
-          width: 370px;
+          width: 340px;
     padding: 20px;
         }
 
