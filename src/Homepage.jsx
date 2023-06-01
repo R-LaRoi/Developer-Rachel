@@ -1,6 +1,6 @@
 import React  from 'react'
 import Navbar from './Navigation'
-import mobileImg from "./hpmobile.png"
+import mobileGif from "./mobile.gif"
 import "./homepage.css"
 import { Link } from 'react-router-dom'
 
@@ -9,7 +9,7 @@ export default function Homepage() {
   return(
     
   <>
-
+<Navbar />
 <main className='hero '>  
 
 <div className='type-container' >
@@ -20,16 +20,14 @@ export default function Homepage() {
 <Link to='/contact' className='h-link reveal hp-nav'>connect</Link>
 </div>
 
-<div className='nv-mobile' >  
- <Link to='/'> 
-  <i className="fa-solid fa-location-arrow"></i></Link>
+<div className='nv-mobile' > 
+ 
 
-<img className= "mobile-img" src={mobileImg} alt="no alternative text" width={"600px"} />
+<img className= "mobile-img" src={mobileGif} alt="no alternative text"  />
 <div className='header'>
-<div className='title-mobile'>rachel</div>
+<div className='title-mobile'>  <div className='meet'>meet</div>rachel</div>
 <div className="sub-title">FRONTEND DEVELOPER</div>
-<Link to='/projects' className='h-link reveal'>projects</Link>
-<Link to='/contact' className='h-link reveal'>connect</Link>
+
 </div>
 
 </div>

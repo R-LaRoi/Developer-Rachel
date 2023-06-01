@@ -20,3 +20,9 @@ body{
   font-family: "Visby-Thin";
   src: url("VisbyCF-Thin.otf");
 }
+
+@font-face {
+
+  font-family: "Tusker-77";
+  src: url("TuskerGrotesk-7700Bold.otf");
+}
