@@ -18,13 +18,14 @@ padding: 35px;
   margin-top: -50px;
 }
 .ele{position: relative;
-  top: 90px;
-  margin-left: -20%;
+  top: 5px;
+  margin-left: -10%;
+  width: 500px;
 }
 
 .left-text{
 position: relative;
-    letter-spacing: 3px;
+    letter-spacing: -2px;
   font-family: 'Archivo Black', sans-serif;
       overflow: hidden;
       font-weight: 300;
@@ -38,16 +39,7 @@ position: relative;
 
 
 
-@keyframes typing {
-  from {
-    width: 0
-  }
 
-  to {
-    width: 98%
-  }
-
-}
 
 .right {
 width: 65%;
@@ -144,7 +136,7 @@ background-color:inherit
   }
 
   to {
-    width: 75%
+    width: 100%
   }
 
 }
@@ -168,15 +160,12 @@ flex-direction: column;
 
 
 
-
-
 @media (max-width:580px) {
 
 .page {
     display: grid;
 grid-template-columns: 1fr;
 background-color: rgb(251, 251, 251);
-
 overflow: hidden;
   }
 
@@ -212,22 +201,19 @@ margin-left: -40px;
     font-family: 'Archivo Black', sans-serif;
 }
 
-.left-text{
-  font-size: 2.5rem;
 
-
-}
 
 .ele{
 position: relative;
-left:50px;
+left:-30px;
+top: 120px;
 }
 .pro-txt{
-margin-top: -90px;
- width: 340px; 
+margin-top: -110px;
+ width: 400px; 
 position: relative;
-padding: 10px;
-
+font-size: .8rem;
+line-height: 1.5;
 
 }
 
@@ -241,6 +227,6 @@ padding: 10px;
 .top{
 padding: 20px;
   width: 330px;
-  margin-left: 50px;
+  margin-left: 0px;
 }
 }

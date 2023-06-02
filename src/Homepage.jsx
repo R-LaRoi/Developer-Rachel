@@ -21,7 +21,7 @@ export default function Homepage() {
 <Link to='/contact' className='h-link reveal hp-nav'><i className="fa-solid fa-hand-sparkles"></i></Link>
 </div>
 
-<div className='nv-mobile' > 
+<div className='nv-mobile'> 
 <Navbar />
 <img className= "mobile-img" src={mobileGif} alt="no alternative text"  />
 <div className='header'>

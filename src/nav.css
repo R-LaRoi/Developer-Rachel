@@ -14,19 +14,22 @@
 
 .navbar {
   position: fixed;
-  color:rgb(15, 14, 14);
+  
 z-index: 10;
 
 }
 
 
 .fa-location-arrow {
+font-size: 1.5rem;
+ color: #d72638;
 
-  color: rgba(39, 39, 39, 0.625);
+
 }
 
 .fa-location-arrow:hover {
-  color: rgb(101, 101, 101)
+  color: rgb(101, 101, 101);
+  text-decoration: 2px underline white;
 }
 
 
@@ -117,9 +120,8 @@ z-index: 10;
   .navbar {
     position: fixed;
     width: 100%;
-    background-color:rgb(15, 14, 14);
     padding-left: 10px;
-    box-shadow: rgba(72, 71, 71, 0.2) 0px 3px 9px 0px;
+
   z-index: 99;
   }
 

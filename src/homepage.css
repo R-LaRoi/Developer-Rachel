@@ -1,5 +1,4 @@
 
-
 .hero{
 height: 100vh;
 padding-bottom: 30px;
@@ -42,7 +41,6 @@ font-size: 1.5rem;
   margin-top: 4rem;
   letter-spacing: 1px;
 font-family: 'Archivo Black', sans-serif;
-
   font-weight: 300;
   font-size: 8rem;
 position: absolute;
@@ -61,7 +59,7 @@ width: 180px;
 position: absolute;
 bottom: -177px;
 right: -290px;
-z-index: 1;
+
 
 
   }
@@ -120,28 +118,26 @@ color: rgb(68, 68, 68);
       box-shadow: rgba(0, 0, 0, 0.15) 0px 15px 25px, rgba(0, 0, 0, 0.05) 0px 5px 10px;
                   background-color: #d72638;
                  }
-                 
-/* @media screen and (min-width: 1024px) {} */
+
 
 
 @media (max-width:600px) {
-        .sub{
+      .name,
+      .type-container, 
+      .sub, 
+      .nv{
           display: none;
         }
-            .nv{
-            display: none;
-          }
-            .hero {
-              background-image: none;
-          overflow-y: hidden;
 
-            }
+ .hero 
+ {
+background-image: none;
+ overflow-y: hidden;
 
-            .name, .type-container{
-              display: none;
-            }
+ }
 
-              
+          
+          
 
           .nv-mobile {
           display: inline;
@@ -194,10 +190,7 @@ font-family: 'Archivo Black', sans-serif;
               color: rgb(31, 30, 30);
               letter-spacing: 2px;
                 font-size: 1.3rem;
-                line-height: 1.5;
-
-       
-      
+ line-height: 1.5;
 font-family: 'Archivo Black', sans-serif;
         margin-left: 30px;
           }
@@ -205,17 +198,16 @@ font-family: 'Archivo Black', sans-serif;
 
           .meet{
 margin-left: 30px;
-            font-size: 2.3rem;
-            letter-spacing: -1px;
-            padding: 10px;
-            line-height: .2
-            ;
-         text-transform: lowercase;
+ font-size: 2.3rem;
+ letter-spacing: -1px;
+ padding: 10px;
+ line-height: .2;
+text-transform: lowercase;
           }
 
           
 
-          .fa-location-arrow{
+.fa-location-arrow{
 color: whitesmoke;
             }
           
@@ -263,47 +255,3 @@ color: whitesmoke;
 }
     
 
-
-/* 
-@media (max-width:900px){
-.hero{
-background-image: url(mobile.gif);
-background-size: contain;
-background-repeat: no-repeat;
-background-position: -100px;
-
-}
-
-
-
-
-.type-container {
-  position: relative;
-top: 630px;
-left: 250px;
-  font-size: 1rem;
-  letter-spacing: 2px;
-  overflow: hidden;
-  font-family: 'Visby-Reg', monospace;
-  animation: 1s ease 0s 1 normal forwards;
-
-}
-
-.name {
-font-size: 3rem;
-line-height: 1.5;
- 
-}
-
-.desktopImg {
-  display: none;
-}
-
-.sm-txt {
-  font-size: 1rem;
-
-}
-.m-text{
-  font-size: 1rem;
-}
-} */
