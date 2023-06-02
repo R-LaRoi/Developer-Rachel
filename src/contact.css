@@ -13,6 +13,7 @@ background-image: url(bird.png);
   width: 35%;
   padding: 50px;
 
+
 }
 
 
@@ -51,14 +52,14 @@ position: relative;
 
   position: relative;
   letter-spacing: 3px;
-    font-family: 'Bungee', cursive;
+font-family: 'Archivo Black', sans-serif;
     overflow: hidden;
     font-weight: 300;
 font-size: 4rem;
   animation:
       typing 1.5s steps(18, end)forwards,
       blink .8s infinite;
-    border-right: .5rem solid #d72638;
+    border-right: 2rem solid #d72638;
 color: rgb(233, 232, 232);
 
 
@@ -126,7 +127,7 @@ width: 600px;
   margin-top: 30%;
 
   margin-left: 10%;
-    font-family: 'Poppins', sans-serif;
+font-family: 'Archivo Black', sans-serif;
 }
 
  .icon{
@@ -186,7 +187,7 @@ width: 100%;
             
 
                 .hwt{
-font-family: 'Russo One';
+font-family: 'Archivo Black', sans-serif;
                   width:330px;
                   text-align: center;
                 }

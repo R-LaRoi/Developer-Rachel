@@ -25,14 +25,14 @@ padding: 35px;
 .left-text{
 position: relative;
     letter-spacing: 3px;
-      font-family: 'Bungee', cursive;
+  font-family: 'Archivo Black', sans-serif;
       overflow: hidden;
       font-weight: 300;
       font-size: 3.5rem;
       animation:
-        typing 1.5s steps(18, end)forwards,
-        blink .8s  infinite;
-      border-right: .1em solid #d72638;
+        typing 1.5s steps(18, end)forwards
+        ;
+      border-right: .5em solid #d72638;
       color: rgb(233, 232, 232);
 }
 
@@ -77,6 +77,15 @@ font-size: 1rem;
 
 }
 
+a{
+color: #d72638;
+  text-decoration: none;
+}
+
+a:hover{
+
+  color: black;
+}
 .pro-txt{
 color: rgb(221, 221, 221);
 letter-spacing: 1.5px;
@@ -88,7 +97,7 @@ line-height: 1.2;
 
 
 .p-txt{
-  font-family: 'Bungee', cursive;
+  font-family: 'Archivo Black', sans-serif;
   line-height: 3;
   ;
 }
@@ -98,7 +107,7 @@ margin-top: 15%;
   font-size: 1.4rem;
   padding-left: 20px;
 font-weight: 400;
-  font-family: 'Bungee', cursive;
+  font-family: 'Archivo Black', sans-serif;
  
 }
 
@@ -118,14 +127,15 @@ background-color:inherit
 ;
   color: rgb(32, 32, 32);
   padding: 5px;
-  font-family: 'Bungee', cursive;
+  font-family: 'Archivo Black', sans-serif;
  font-size: 1rem;
+
 }
  
 .pro-btn:hover{
 
-  border-bottom:5px solid #d72638;
-  color: rgb(236, 236, 236);
+
+  color: rgb(31, 31, 31);
 }
 
 @keyframes typing {
@@ -134,7 +144,7 @@ background-color:inherit
   }
 
   to {
-    width: 100%
+    width: 75%
   }
 
 }
@@ -199,7 +209,7 @@ margin-left: -65%;
   margin-top: 5%;
     font-size: 1rem;
 margin-left: -40px;
-    font-family: 'Bungee', cursive;
+    font-family: 'Archivo Black', sans-serif;
 }
 
 .left-text{
