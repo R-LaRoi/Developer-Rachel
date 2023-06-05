@@ -130,6 +130,7 @@ color: rgb(68, 68, 68);
  {
 background-image: none;
 position: fixed;
+height: 100vh;
 
  }
 
@@ -153,8 +154,8 @@ position: fixed;
           }
 
           .title-mobile{
-          margin-top: 10rem;
-            letter-spacing: 5px;
+          margin-top: 7rem;
+            letter-spacing: 2.5px;
 font-family: 'Archivo Black', sans-serif;
               overflow: hidden;
               font-weight: 800;
@@ -167,9 +168,11 @@ font-family: 'Archivo Black', sans-serif;
               color: rgb(31, 30, 30);
               text-transform: uppercase;
               margin-left: 25px;
-      text-decoration: underline 40px #d72638;
--webkit-text-decoration:underline 40px #d72638;
+      /* text-decoration: underline 38px  #d72638; */
+/* -webkit-text-decoration:underline 40px #d72638; */
           width: 400px;
+          position: relative;
+          z-index: 10;
 
           }
 
@@ -205,7 +208,6 @@ margin-left: 30px;
    background-color:#d72638;
    color: white;
    padding: 8px;
- 
  font-size: .9rem;
    text-transform: uppercase;
           }
@@ -225,6 +227,17 @@ text-transform: lowercase;
 color: whitesmoke;
             }
           
+
+.rectangle {
+  position: absolute;
+  top: 156px;
+  left: 75px;
+  height: 40px;
+  width: 94px;
+  background-color: #d72638;
+z-index: 1;
+}
+   
 }
 
 

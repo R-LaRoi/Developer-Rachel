@@ -27,6 +27,8 @@ export default function Homepage() {
 <div className='header'>
 <div className='title-mobile'>  <div className='meet'>meet</div>rachel</div>
 <div className="sub-title">FRONTEND DEVELOPER</div>
+<div class="rectangle"></div>
+
 <Link to='/projects' className='reveal links'>projects</Link>
 <Link to='/contact' className='reveal links'>connect</Link>
 
