@@ -8,8 +8,6 @@
   list-style: none;
   font-family: 'Archivo Black', sans-serif;
 
-
-
 } 
 
 .navbar {
@@ -127,9 +125,9 @@ z-index: 10;
 
   .nav-elements {
     position: absolute;
-    right: 0;
+   left: 0;
     top: 60px;
-    background-color: #f6f6f6;
+    background-color: #f0eeee;
     width: 0px;
     height: calc(100vh - 60px);
     transition: all 0.3s ease-in;
@@ -141,7 +139,7 @@ z-index: 10;
 
 
   .nav-elements.active {
-    width: 240px;
+    width: 180px;
 
 
   }
@@ -162,7 +160,6 @@ z-index: 10;
 
 
   .nav-pg {
-
     z-index: 10;
   }
 }

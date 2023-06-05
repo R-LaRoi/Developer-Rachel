@@ -172,7 +172,7 @@ overflow: hidden;
   .left {
 position: relative;
     background-color: rgb(15, 14, 14);
-    height: 100vh;
+
     padding: 0px;
 width: 100%;
   }
@@ -182,7 +182,7 @@ width: 100%;
 
 .p-card {
 margin-left: -65%;
-  padding: 75px 65px;
+  padding: 65px 25px;
   display: flex;
   flex-direction: column;
   gap: 20px;
@@ -202,15 +202,14 @@ margin-left: -40px;
 }
 
 
-
 .ele{
 position: relative;
 left:-30px;
-top: 120px;
+top: 10px;
+width: 400px;
 }
 .pro-txt{
-margin-top: -110px;
- width: 400px; 
+margin-top: -140px;
 position: relative;
 font-size: .8rem;
 line-height: 1.5;
@@ -225,7 +224,7 @@ line-height: 1.5;
 }
 
 .top{
-padding: 20px;
+padding: 10px;
   width: 330px;
   margin-left: 0px;
 }

@@ -33,7 +33,7 @@ font-size: 4rem;
 }
 
 .co-text{
-margin-top: 30%;
+margin-top: 10%;
 
 }
 
@@ -131,7 +131,7 @@ font-family: 'Archivo Black', sans-serif;
    color: rgb(18, 18, 18);
    font-size: 1.3rem;
    border-radius: 50%;
-background-color: white;
+background-color: rgb(223, 222, 222);
    padding: .5rem;
    margin-right: 15px;
 
@@ -147,9 +147,9 @@ background-color: white;
 .container {
     display: flex;
     flex-direction: column;
-    overflow-y: hidden;
-  
+position: fixed;
 
+  
   }
 
 
@@ -158,12 +158,13 @@ background-color: white;
       background-color: rgb(15, 14, 14);
 width: 100%; 
 
+
     }
 .right-col{
 width: 100%;
   background-color: rgb(15, 14, 14);
   background-image: url(bird.png);
-      background-size: 600px;
+      background-size: 400px;
         background-repeat: no-repeat;
         background-position: left 20%;
         height: 300px;
@@ -171,10 +172,10 @@ width: 100%;
 
 
        form { position: absolute;
-        top: 500px;
-        background-color: #a4a3a314;
+        top: 350px;
+        background-color: #1d1d1d9e;
           color: rgba(233, 232, 232, 0.311);
-          width: 340px;
+          width: 280px;
     padding: 20px;
         }
 
@@ -190,4 +191,6 @@ font-family: 'Archivo Black', sans-serif;
 font-size: 2rem sans-serif;
                   margin-top: 50px;
                 }
+                
 }
+
