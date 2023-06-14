@@ -37,7 +37,7 @@ PROJECTS
    
          <div className='title'> The Prolouge  | Book Blog
             <p className='desc'> JAVASCRIPT | CSS | HTML | DICTIONARY API</p>
-<button className='pro-btn'>
+<button className='pro-btn'><a href="https://comfy-crostata-579d20.netlify.app/" target= "_blank">View Page</a>
                       <a href="https://github.com/R-LaRoi/writers-block-v3/tree/master/src" target= "_blank">
                       <i className="fa-brands fa-square-github"> 
                       </i>
@@ -49,11 +49,11 @@ PROJECTS
     
     <div className='p-card'> 
                 <img src={image2} alt="no alternative text" className='project-images' />
-          <div className='title'>What's The Move | Excercise Log
+          <div className='title'>What's The Move | Fitness Coach Profile
             <div className='sub-txt'>Celebrate your small wins and keep track of your routine. 
             <p className='desc'> Vanilla JS | FIREBASE | CSS | HTML</p>
-            <button className='pro-btn'> <a href="https://github.com/R-LaRoi/Move-v2" target= "_blank">View Page</a></button>
-<button className='pro-btn'><a href="https://github.com/R-LaRoi/Move-v2" target= "_blank"><i className="fa-brands fa-square-github"> </i></a></button>
+            <button className='pro-btn'> <a href="https://6489f80ea4e75e0008d6c7dc--whatsthemoveapp.netlify.app/" target= "_blank">View Page</a></button>
+<button className='pro-btn'><a href="https://github.com/R-LaRoi/Move-app" target= "_blank"><i className="fa-brands fa-square-github"> </i></a></button>
 
 </div>
           </div>
